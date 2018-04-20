@@ -11,7 +11,7 @@ header{
 	width: 99%;}
 
 .ddiv {
-		color: white; border: 2%; padding: 5%, black;
+		color: white; padding: 2%;
 	} /** degsins the header**/
 .sec{
 		display:flex;flex-direction: row; 
@@ -52,16 +52,25 @@ li{
 		text-align: center; margin: 25px; margin-bottom: 69px; background-color:white ; color: black; border-radius: 50px;
 	} /** this creates a white box with rounded corners **/
 .pad{padding-top: 80px;}/**this gave padding to the image in index.html which put the image in my desired postion**/	
+.pad1{
+	margin-right: 350px;
+}
+.pad2{
+	margin-left: 30%; margin-bottom: 5%;
+}
+.space{
+	margin: 5%; justify-content: center;
+}
 .www2{
 		padding-left:40px;padding: 5%;width: 50%; justify-content: center; text-align: center;margin: 25px; margin-left: 150px; margin-top: 70px;
 		margin-bottom: 150px; background-color:white ; color: black; border-radius: 50px; font-family: 'Bree Serif', serif;
 	}
 	.www3{
-			display: flex; flex-direction: row; padding: 6%; align-content: left; margin: 5;
+			display: flex; flex-direction: row; padding: 6%; margin: 5;
 	} 
 
 .www4{
-	display: flex; flex-direction: column; 
+	display: flex; flex-direction: column; margin-left: 25%;
 }
 	.container{ width: 10%; margin-right: 2%; 
 		 display: flex; flex-direction: column; flex-grow: 1; align-self: center;} /** this creates a flex conatiner and the items inside are stored in columns**/
@@ -77,7 +86,8 @@ li{
 .normal1{
 		text-align: center; padding-right: 2%; margin-left: 200px;
 }
-
+/**form{ margin-left: 100px; }
+**/
 
 footer{
 		padding: 3.5%; background: black; width: 93%; color: white; text-align: right;
@@ -88,7 +98,7 @@ footer{
 .sec{flex-direction: column; justify-content: center;}
 h1{text-align: center;}
 p{text-align: center;}
-.pad{margin-right: : 20%;}
+.pad{margin-right: 20%;}
 .www{width: 90%; margin: 2%; padding-left: 1%;} 
 .www2{margin-left: 80px;}
 .container{width:50%;}
